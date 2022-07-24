@@ -1,0 +1,20 @@
+SMAP
+website_jsp.java
+JSP
+*S JSP
+*F
++ 0 website.jsp
+website.jsp
++ 1 header.jsp
+header.jsp
++ 2 content.jsp
+content.jsp
+*L
+5,309:50
+5#1,19:359
+313#0:377
+314:378,2
+315:380
+1#2,73:381
+315#0,6:453
+*E

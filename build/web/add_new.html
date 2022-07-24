@@ -1,0 +1,98 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            .center {
+                text-align: center;
+                margin: auto;
+                width: 60%;
+                border: 1px solid;
+                padding: 10px;
+            }
+
+            .container {
+                padding: 16px;
+            }
+
+            .centerbtn {
+                text-align: center;
+                margin: auto;
+                width: 60%;
+                padding: 10px;
+
+            }
+
+            input[type=text],
+            input[type=password],
+            .textArea {
+                width: 30%;
+                padding: 10px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: 1px solid;
+                background: #f1f1f1;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form action="insertjstl.jsp" style="border:1px solid #ccc;" method="get">
+            <div class="container center" style="background-color: lightskyblue;">
+                <h1 style="background-color:yellow;">Register new student</h1>
+
+                <hr>
+              
+                <br>
+                <br>
+                <label>
+                    <b> Course name: </b>
+                </label>
+                
+
+                <input type="text" name="course_name"  size="10" required />
+                <br>
+                <br>
+
+                <label for="branch_name"><b>Branch Name: </b></label>
+                <input type="text"  name="branch_name" required>
+
+                <br>
+                <label for="branch_name"><b>Roll no:</b></label>
+                <input type="text" name="roll_no" required>
+                <br>
+                <label for="Name"><b>Name: </b></label>
+                <input type="text" name="name" required>
+                <br>
+
+                <br>
+                <label for="FName"><b>Surname: </b></label>
+                <input type="text" name="Fname" required>
+                <br>
+                <br>
+
+                <label for="Password"><b>Gender: </b></label>
+                <input type="password"  name="Gender" required>
+
+                <br>
+
+                <br>
+                <label for="Gender"><b>Password:  </b></label>
+                <input type="text" name="password" required>
+                <br>
+
+
+                <button type="submit" class="signupbtn button" style="background-color: green;width:30%;padding:14px;
+                            font-size: 18px;border-radius: 10px;cursor: pointer;color:white;">Save</button>
+            </div>
+        </form>
+        
+    </body>
+</html>
